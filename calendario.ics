@@ -12,20 +12,37 @@ UID:unitec-2026-11-10-0@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261110T120000Z
 DTEND:20261110T123000Z
-SUMMARY:📲 Anúncio: Ligar o anúncio A (caderno)
-DESCRIPTION:Anúncio • Ligar o anúncio A (caderno)\n\nO que fazer: Imp
- ulsionar o Reels do caderno com objetivo "Mensagens no WhatsApp"\nDetalh
- es: Público: raio de 25 km de Camboriú\, 25 a 60 anos\, interesses em 
- pequenas empresas\, varejo e comércio. Verba: R$ 10 por dia\, por 7 dia
- s (R$ 70 no total). Use o texto 1 da seção Anúncios.
+SUMMARY:📲 Anúncio: Anúncio A no ar (teste de 3 dias)
+DESCRIPTION:Anúncio • Anúncio A no ar (teste de 3 dias)\n\nO que faze
+ r: Conferir se o anúncio saiu da análise e responder rápido toda conv
+ ersa que chegar\nDetalhes: Reels do caderno turbinado em 09/11\, objetiv
+ o mensagens (WhatsApp e Direct)\, Camboriú + 25 km\, 26 a 59 anos\, R$ 
+ 10 por dia por 3 dias (R$ 34\,15 com impostos). O relatório das 9h most
+ ra os números.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15M
-DESCRIPTION:Anúncio: Ligar o anúncio A (caderno)
+DESCRIPTION:Anúncio: Anúncio A no ar (teste de 3 dias)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-10-1@unitecnologiasc.com.br
+UID:unitec-2026-11-12-1@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261112T210000Z
+DTEND:20261112T213000Z
+SUMMARY:📲 Anúncio: Fim do teste do anúncio A
+DESCRIPTION:Anúncio • Fim do teste do anúncio A\n\nO que fazer: Decid
+ ir se coloca mais saldo e continua\nDetalhes: Se a conversa saiu por at
+ é R$ 5\, adicione saldo e turbine de novo por 7 dias. Se passou de R$ 8
+ \, teste o anúncio B (PDV) no lugar.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Fim do teste do anúncio A
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-10-2@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261110T220000Z
 DTEND:20261110T223000Z
@@ -49,7 +66,7 @@ DESCRIPTION:Amanhã: Reels – Venda em segundos no PDV. Gravar/preparar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-11-2@unitecnologiasc.com.br
+UID:unitec-2026-11-11-3@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261111T220000Z
 DTEND:20261111T223000Z
@@ -73,7 +90,7 @@ DESCRIPTION:Amanhã: Reels – PIX e cartão na mesma venda. Gravar/prepa
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-12-3@unitecnologiasc.com.br
+UID:unitec-2026-11-12-4@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261112T150000Z
 DTEND:20261112T153000Z
@@ -99,7 +116,7 @@ DESCRIPTION:Amanhã: Carrossel – 5 sinais de que o estoque está te dan
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-12-4@unitecnologiasc.com.br
+UID:unitec-2026-11-12-5@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261112T220000Z
 DTEND:20261112T223000Z
@@ -123,7 +140,7 @@ DESCRIPTION:Amanhã: Reels – Estoque mínimo: o sistema avisa antes de
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-13-5@unitecnologiasc.com.br
+UID:unitec-2026-11-13-6@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261113T220000Z
 DTEND:20261113T223000Z
@@ -148,7 +165,7 @@ DESCRIPTION:Amanhã: Reels – 3 erros que fazem o caixa não fechar. Gra
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-14-6@unitecnologiasc.com.br
+UID:unitec-2026-11-14-7@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261114T130000Z
 DTEND:20261114T133000Z
@@ -169,22 +186,6 @@ ACTION:DISPLAY
 TRIGGER:-P1D
 DESCRIPTION:Amanhã: Reels – Quem está por trás da Unitecnologia. Gra
  var/preparar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-14-7@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261114T210000Z
-DTEND:20261114T213000Z
-SUMMARY:📲 Anúncio: Revisar o anúncio A
-DESCRIPTION:Anúncio • Revisar o anúncio A\n\nO que fazer: Abrir o Ger
- enciador de Anúncios e ver o custo por conversa\nDetalhes: Se a convers
- a custar até R$ 5\, mantenha. Se passar de R$ 8\, troque o criativo pel
- o anúncio B (PDV) ou diminua o raio para 15 km.
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15M
-DESCRIPTION:Anúncio: Revisar o anúncio A
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
