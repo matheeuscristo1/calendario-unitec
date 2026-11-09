@@ -62,6 +62,36 @@ section.week{margin-top:36px}
 .pre{white-space:pre-line}
 .muted{color:var(--muted)}
 .copy{justify-self:start;cursor:pointer}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;gap:6px;background:var(--bg);padding-block:10px;margin-bottom:18px;border-bottom:1px solid var(--line)}
+.tab{font:800 16px var(--display);text-decoration:none;color:var(--muted);padding:10px 18px;border-radius:10px;display:inline-flex;align-items:center;gap:8px}
+.tab[aria-current]{background:var(--ink);color:var(--bg)}
+.tab:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--line);display:inline-block}
+.dot.on{background:var(--green);box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 30%,transparent)}
+.adlive{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;gap:14px;margin-bottom:12px}
+.adhead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.adhead h3{margin:0}
+.adhead p{margin:4px 0 0}
+.pill{font:800 13px var(--display);padding:6px 12px;border-radius:999px;white-space:nowrap}
+.p-good{background:color-mix(in srgb,var(--green) 18%,transparent);color:var(--green)}
+.p-wait{background:color-mix(in srgb,var(--amber) 20%,transparent);color:var(--amber)}
+.p-bad{background:color-mix(in srgb,#E5484D 18%,transparent);color:#E5484D}
+.p-off{background:var(--bg);color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.kpi{display:grid;gap:2px;padding:12px 14px;border-radius:12px;background:var(--bg);border-left:4px solid var(--line);font-variant-numeric:tabular-nums;min-width:0}
+.kl{font-weight:700;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kv{font:900 28px/1.1 var(--display)}
+.ks{font-size:14px;color:var(--muted)}
+.k-good{border-left-color:var(--green)} .k-warn{border-left-color:var(--amber)} .k-bad{border-left-color:#E5484D} .k-wait{border-left-color:var(--line)}
+.bar{height:6px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--blue)}
+.notice.rec{border-color:var(--blue)}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td:last-child{white-space:normal;min-width:180px}
+th{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+tbody tr:last-child td{border-bottom:0}
 .k-carrossel .chip{color:var(--surface)}
 .k-opcional .chip{color:#1b1300}
 .legend .k-reels i,.legend .k-story i,.legend .k-carrossel i,.legend .k-opcional i{background:var(--c)}
@@ -103,6 +133,11 @@ footer{margin-top:44px;color:var(--muted);font-size:15px;display:grid;gap:6px}
       <span class="k-anuncio"><i></i>Anúncio · 6</span>
     </div>
   </header>
+  <nav class="tabs" aria-label="Seções">
+    <a href="#calendario" id="t-cal" class="tab" aria-current="page">Calendário</a>
+    <a href="#anuncios" id="t-ads" class="tab">Anúncios <span class="dot" id="t-ads-dot"></span></a>
+  </nav>
+  <div id="v-cal">
   <div class="notice setup" id="setup">
     <b>Ative os avisos (só uma vez)</b>
     <p>Toque no botão do seu celular. A agenda pergunta se quer assinar o calendário: confirme. Os avisos chegam 1 hora antes de cada post e, nos Reels e carrosséis, também no dia anterior. Se o calendário mudar, a agenda atualiza sozinha.</p>
@@ -439,7 +474,66 @@ footer{margin-top:44px;color:var(--muted);font-size:15px;display:grid;gap:6px}
       <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+Reels%3A+30+dias%2C+30+v%C3%ADdeos&amp;dates=20261209T220000Z%2F20261209T223000Z&amp;details=Gancho%3A+Qual+desses+v%C3%ADdeos+foi+o+seu+favorito%3F%0AO+que+mostrar%3A+Montagem+r%C3%A1pida+com+trechos+dos+melhores+Reels+do+m%C3%AAs+%2B+oferta+de+dezembro.%0ALegenda%3A+Comente+o+n%C3%BAmero+do+seu+favorito+%F0%9F%91%87+e+chama+no+WhatsApp+para+ver+ao+vivo.%0AStory+do+dia%3A+Oferta+de+dezembro+%2B+LINK%0AWhatsApp%3A+wa.me%2F5547984002117" target="_blank" rel="noopener">+ Google Agenda</a>
     </div>
   </article></div></section>
-  <section class="week" id="anuncios"><div class="wk"><h2>Anúncios</h2><span class="dates">Mensagens no WhatsApp</span></div>
+  </div>
+  <div id="v-ads" hidden>
+  <section class="week"><div class="wk"><h2>Agora</h2><span class="dates" id="ad-upd"></span></div>
+    <div id="ad-live"><p class="muted">Carregando os números do anúncio…</p></div>
+  </section>
+  <section class="week"><div class="wk"><h2>Dia a dia</h2><span class="dates">Atualizado pelo relatório das 9h</span></div>
+    <div id="ad-hist"></div>
+  </section>
+  <section class="week"><div class="wk"><h2>Próximos passos</h2><span class="dates">Marcos dos anúncios</span></div>
+    <div class="list"><article class="item k-anuncio" data-start="20261110T120000Z">
+    <div class="when"><span class="wd">Ter</span><span class="day">10</span><span class="mo">nov</span><span class="hr">09:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Anúncio A no ar (teste de 3 dias)</h3>
+      <dl><div><dt>O que fazer</dt><dd>Conferir se o anúncio saiu da análise e responder rápido toda conversa que chegar</dd></div><div><dt>Detalhes</dt><dd>Reels do caderno turbinado em 09/11, objetivo mensagens (WhatsApp e Direct), Camboriú + 25 km, 26 a 59 anos, R$ 10 por dia por 3 dias (R$ 34,15 com impostos). O relatório das 9h mostra os números.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+An%C3%BAncio+A+no+ar+%28teste+de+3+dias%29&amp;dates=20261110T120000Z%2F20261110T123000Z&amp;details=O+que+fazer%3A+Conferir+se+o+an%C3%BAncio+saiu+da+an%C3%A1lise+e+responder+r%C3%A1pido+toda+conversa+que+chegar%0ADetalhes%3A+Reels+do+caderno+turbinado+em+09%2F11%2C+objetivo+mensagens+%28WhatsApp+e+Direct%29%2C+Cambori%C3%BA+%2B+25+km%2C+26+a+59+anos%2C+R%24+10+por+dia+por+3+dias+%28R%24+34%2C15+com+impostos%29.+O+relat%C3%B3rio+das+9h+mostra+os+n%C3%BAmeros." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article><article class="item k-anuncio" data-start="20261112T210000Z">
+    <div class="when"><span class="wd">Qui</span><span class="day">12</span><span class="mo">nov</span><span class="hr">18:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Fim do teste do anúncio A</h3>
+      <dl><div><dt>O que fazer</dt><dd>Decidir se coloca mais saldo e continua</dd></div><div><dt>Detalhes</dt><dd>Se a conversa saiu por até R$ 5, adicione saldo e turbine de novo por 7 dias. Se passou de R$ 8, teste o anúncio B (PDV) no lugar.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+Fim+do+teste+do+an%C3%BAncio+A&amp;dates=20261112T210000Z%2F20261112T213000Z&amp;details=O+que+fazer%3A+Decidir+se+coloca+mais+saldo+e+continua%0ADetalhes%3A+Se+a+conversa+saiu+por+at%C3%A9+R%24+5%2C+adicione+saldo+e+turbine+de+novo+por+7+dias.+Se+passou+de+R%24+8%2C+teste+o+an%C3%BAncio+B+%28PDV%29+no+lugar." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article><article class="item k-anuncio" data-start="20261117T120000Z">
+    <div class="when"><span class="wd">Ter</span><span class="day">17</span><span class="mo">nov</span><span class="hr">09:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Ligar o anúncio B (PDV)</h3>
+      <dl><div><dt>O que fazer</dt><dd>Criar um segundo anúncio com a arte B e o texto 2</dd></div><div><dt>Detalhes</dt><dd>Mesmo público. Divida os R$ 10 por dia: R$ 5 no A e R$ 5 no B, por 5 dias, e compare o custo por conversa.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+Ligar+o+an%C3%BAncio+B+%28PDV%29&amp;dates=20261117T120000Z%2F20261117T123000Z&amp;details=O+que+fazer%3A+Criar+um+segundo+an%C3%BAncio+com+a+arte+B+e+o+texto+2%0ADetalhes%3A+Mesmo+p%C3%BAblico.+Divida+os+R%24+10+por+dia%3A+R%24+5+no+A+e+R%24+5+no+B%2C+por+5+dias%2C+e+compare+o+custo+por+conversa." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article><article class="item k-anuncio" data-start="20261121T210000Z">
+    <div class="when"><span class="wd">Sáb</span><span class="day">21</span><span class="mo">nov</span><span class="hr">18:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Escolher o anúncio vencedor</h3>
+      <dl><div><dt>O que fazer</dt><dd>Comparar A e B pelo custo por conversa</dd></div><div><dt>Detalhes</dt><dd>Desligue o mais caro e passe a verba para o mais barato. Responda todas as conversas no mesmo dia.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+Escolher+o+an%C3%BAncio+vencedor&amp;dates=20261121T210000Z%2F20261121T213000Z&amp;details=O+que+fazer%3A+Comparar+A+e+B+pelo+custo+por+conversa%0ADetalhes%3A+Desligue+o+mais+caro+e+passe+a+verba+para+o+mais+barato.+Responda+todas+as+conversas+no+mesmo+dia." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article><article class="item k-anuncio" data-start="20261124T120000Z">
+    <div class="when"><span class="wd">Ter</span><span class="day">24</span><span class="mo">nov</span><span class="hr">09:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Ligar o anúncio C (Black Friday)</h3>
+      <dl><div><dt>O que fazer</dt><dd>Criar o anúncio com a arte C e o texto 3, até 28/11</dd></div><div><dt>Detalhes</dt><dd>Mesmo público. Coloque os R$ 10 por dia só no C nesses 5 dias, que é quando o comerciante sente a dor. Se quiser, suba para R$ 15 só nessa semana.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+Ligar+o+an%C3%BAncio+C+%28Black+Friday%29&amp;dates=20261124T120000Z%2F20261124T123000Z&amp;details=O+que+fazer%3A+Criar+o+an%C3%BAncio+com+a+arte+C+e+o+texto+3%2C+at%C3%A9+28%2F11%0ADetalhes%3A+Mesmo+p%C3%BAblico.+Coloque+os+R%24+10+por+dia+s%C3%B3+no+C+nesses+5+dias%2C+que+%C3%A9+quando+o+comerciante+sente+a+dor.+Se+quiser%2C+suba+para+R%24+15+s%C3%B3+nessa+semana." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article><article class="item k-anuncio" data-start="20261201T120000Z">
+    <div class="when"><span class="wd">Ter</span><span class="day">1</span><span class="mo">dez</span><span class="hr">09:00</span></div>
+    <div class="body">
+      <div class="chip">Anúncio</div>
+      <h3>Balanço do mês dos anúncios</h3>
+      <dl><div><dt>O que fazer</dt><dd>Somar conversas, demonstrações e vendas fechadas</dd></div><div><dt>Detalhes</dt><dd>Mantenha o anúncio que trouxe venda. Se quiser, lance a oferta &quot;implantação grátis para as 10 primeiras lojas de dezembro&quot;.</dd></div></dl>
+      <a class="gc" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%F0%9F%93%B2+An%C3%BAncio%3A+Balan%C3%A7o+do+m%C3%AAs+dos+an%C3%BAncios&amp;dates=20261201T120000Z%2F20261201T123000Z&amp;details=O+que+fazer%3A+Somar+conversas%2C+demonstra%C3%A7%C3%B5es+e+vendas+fechadas%0ADetalhes%3A+Mantenha+o+an%C3%BAncio+que+trouxe+venda.+Se+quiser%2C+lance+a+oferta+%22implanta%C3%A7%C3%A3o+gr%C3%A1tis+para+as+10+primeiras+lojas+de+dezembro%22." target="_blank" rel="noopener">+ Google Agenda</a>
+    </div>
+  </article></div>
+  </section>
+  <section class="week"><div class="wk"><h2>Criativos e textos</h2><span class="dates">Mensagens no WhatsApp</span></div>
     <div class="adsetup">
       <dl>
         <div><dt>Público</dt><dd>Raio de 25 km de Camboriú (pega Balneário Camboriú e Itajaí) · 25 a 60 anos · interesses: pequenas e médias empresas, empreendedorismo, varejo, comércio, supermercado, loja de conveniência.</dd></div>
@@ -489,11 +583,51 @@ Caixa rápido, estoque certo e vendas em tempo real no dia mais corrido do ano.
     </article></div>
     <p class="small muted">As artes estão na pasta "Instagram - Unitec ERP\Anuncios" da área de trabalho e também abrem tocando nas imagens.</p>
   </section>
+  </div>
   <footer>
     <span>Domingo também tem Reels, mas pode ser um vídeo mais leve. Em todo vídeo com tela do sistema, desfoque nomes, CPF/CNPJ e chaves de acesso de clientes.</span>
     <span>WhatsApp para os links e stickers: wa.me/5547984002117</span>
   </footer>
-</div><script>
+</div>
+<script id="ad-data" type="application/json">{"atualizado":"2026-11-09T19:40:00-03:00","saldo":34.62,"meta":{"ideal":5,"limite":8},"anuncios":[{"id":"A","nome":"Reels do caderno","status":"Em análise","inicio":"2026-11-09","fim":"2026-11-12","verbaDia":10,"total":34.15,"destino":"WhatsApp e Direct","publico":"Camboriú + 25 km · 26 a 59 anos","gasto":0,"conversas":0,"impressoes":0}],"historico":[],"recomendacao":"O anúncio está em análise na Meta. Quando for aprovado, responda toda conversa em poucos minutos: isso deixa cada conversa mais barata."}</script>
+<script>
+(function(){
+  var cal=document.getElementById('v-cal'), ads=document.getElementById('v-ads'), tc=document.getElementById('t-cal'), ta=document.getElementById('t-ads');
+  function route(){var a=location.hash==='#anuncios'; cal.hidden=a; ads.hidden=!a;
+    tc.toggleAttribute('aria-current',!a); ta.toggleAttribute('aria-current',a); if(a) tc.removeAttribute('aria-current'); else ta.removeAttribute('aria-current');
+    if(!a&&location.hash==='#calendario') window.scrollTo(0,0);}
+  window.addEventListener('hashchange',route); route();
+  var brl=function(v){return 'R$ '+Number(v||0).toFixed(2).replace('.',',');};
+  var dt=function(s){var p=s.slice(0,10).split('-');return p[2]+'/'+p[1];};
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function render(d){
+    var m=d.meta||{ideal:5,limite:8};
+    document.getElementById('ad-upd').textContent='Atualizado em '+new Date(d.atualizado).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+    var live=document.getElementById('ad-live'), html='';
+    (d.anuncios||[]).forEach(function(a){
+      var cpc=a.conversas?a.gasto/a.conversas:null;
+      var lvl=cpc==null?'wait':cpc<=m.ideal?'good':cpc<=m.limite?'warn':'bad';
+      var lvlTxt={wait:'Sem conversas ainda',good:'Dentro da meta',warn:'Aceitável',bad:'Acima da meta'}[lvl];
+      var st=(a.status||'').toLowerCase(), stc=/ativo|veicula/.test(st)?'good':/análise|analise|aprend/.test(st)?'wait':/pausad|conclu|encerr/.test(st)?'off':/rejeit|recus/.test(st)?'bad':'wait';
+      var pct=a.total?Math.min(100,Math.round(a.gasto/a.total*100)):0;
+      html+='<article class="adlive"><div class="adhead"><div><h3>Anúncio '+esc(a.id)+' · '+esc(a.nome)+'</h3><p class="muted small">'+esc(a.destino)+' · '+esc(a.publico)+' · '+dt(a.inicio)+' a '+dt(a.fim)+'</p></div><span class="pill p-'+stc+'">'+esc(a.status)+'</span></div>'+
+        '<div class="kpis">'+
+        '<div class="kpi"><span class="kl">Gasto</span><span class="kv">'+brl(a.gasto)+'</span><span class="ks">de '+brl(a.total)+' ('+brl(a.verbaDia)+'/dia)</span><div class="bar"><i style="width:'+pct+'%"></i></div></div>'+
+        '<div class="kpi"><span class="kl">Conversas</span><span class="kv">'+(a.conversas||0)+'</span><span class="ks">'+(a.impressoes||0).toLocaleString('pt-BR')+' impressões</span></div>'+
+        '<div class="kpi k-'+lvl+'"><span class="kl">Custo por conversa</span><span class="kv">'+(cpc==null?'—':brl(cpc))+'</span><span class="ks">'+lvlTxt+' · meta até '+brl(m.ideal)+'</span></div>'+
+        '<div class="kpi"><span class="kl">Saldo da conta</span><span class="kv">'+(d.saldo==null?'—':brl(d.saldo))+'</span><span class="ks">'+(d.saldo!=null&&a.verbaDia&&d.saldo<a.verbaDia?'Acabando: o anúncio vai parar':'Pré-pago na Meta')+'</span></div>'+
+        '</div></article>';
+    });
+    if(d.recomendacao) html+='<div class="notice rec"><b>O que fazer hoje</b><p>'+esc(d.recomendacao)+'</p></div>';
+    live.innerHTML=html||'<p class="muted">Nenhum anúncio ativo.</p>';
+    var h=d.historico||[], hb=document.getElementById('ad-hist');
+    hb.innerHTML=h.length?'<div class="tablewrap"><table><thead><tr><th>Dia</th><th>Gasto</th><th>Conversas</th><th>Custo/conversa</th><th>Observação</th></tr></thead><tbody>'+h.slice().reverse().map(function(r){var c=r.conversas?r.gasto/r.conversas:null;return '<tr><td>'+dt(r.data)+'</td><td>'+brl(r.gasto)+'</td><td>'+(r.conversas||0)+'</td><td>'+(c==null?'—':brl(c))+'</td><td>'+esc(r.nota||'')+'</td></tr>';}).join('')+'</tbody></table></div>'
+      :'<div class="notice"><b>O primeiro relatório chega amanhã às 9h</b><p>Cada dia de anúncio vira uma linha aqui, com gasto, conversas e custo por conversa.</p></div>';
+    var dot=document.getElementById('t-ads-dot'); var a0=(d.anuncios||[])[0]; dot.className='dot'+(a0&&/ativo|veicula/i.test(a0.status)?' on':'');
+  }
+  var emb=JSON.parse(document.getElementById('ad-data').textContent); render(emb);
+  fetch('anuncios.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){});
+})();</script><script>
 (function(){
   if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}
   var ua=navigator.userAgent, ios=/iPhone|iPad|iPod/.test(ua), and=/Android/.test(ua);
