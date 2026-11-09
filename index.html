@@ -626,10 +626,18 @@ Caixa rápido, estoque certo e vendas em tempo real no dia mais corrido do ano.
     var dot=document.getElementById('t-ads-dot'); var a0=(d.anuncios||[])[0]; dot.className='dot'+(a0&&/ativo|veicula/i.test(a0.status)?' on':'');
   }
   var emb=JSON.parse(document.getElementById('ad-data').textContent); render(emb);
-  fetch('anuncios.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){});
+  function load(){fetch('anuncios.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){});}
+  load(); document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')load();});
 })();</script><script>
 (function(){
-  if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}
+  if('serviceWorker' in navigator){
+    var hadCtrl=!!navigator.serviceWorker.controller, reloaded=false;
+    navigator.serviceWorker.addEventListener('controllerchange',function(){if(hadCtrl&&!reloaded){reloaded=true;location.reload();}});
+    navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(function(reg){
+      reg.update();
+      document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible'){reg.update();}});
+    }).catch(function(){});
+  }
   var ua=navigator.userAgent, ios=/iPhone|iPad|iPod/.test(ua), and=/Android/.test(ua);
   if(ios) document.getElementById('b-and').hidden=true;
   if(and) document.getElementById('b-ios').hidden=true;
