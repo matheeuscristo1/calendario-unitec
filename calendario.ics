@@ -16,8 +16,8 @@ SUMMARY:📲 Anúncio: Ligar o anúncio A (caderno)
 DESCRIPTION:Anúncio • Ligar o anúncio A (caderno)\n\nO que fazer: Imp
  ulsionar o Reels do caderno com objetivo "Mensagens no WhatsApp"\nDetalh
  es: Público: raio de 25 km de Camboriú\, 25 a 60 anos\, interesses em 
- pequenas empresas\, varejo e comércio. Verba: R$ 30 a 50 por dia\, por 
- 7 dias. Use o texto 1 da seção Anúncios.
+ pequenas empresas\, varejo e comércio. Verba: R$ 10 por dia\, por 7 dia
+ s (R$ 70 no total). Use o texto 1 da seção Anúncios.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15M
@@ -179,8 +179,8 @@ DTEND:20261114T213000Z
 SUMMARY:📲 Anúncio: Revisar o anúncio A
 DESCRIPTION:Anúncio • Revisar o anúncio A\n\nO que fazer: Abrir o Ger
  enciador de Anúncios e ver o custo por conversa\nDetalhes: Se a convers
- a custar até R$ 10\, mantenha. Se passar de R$ 15\, troque o criativo p
- elo anúncio B (PDV).
+ a custar até R$ 5\, mantenha. Se passar de R$ 8\, troque o criativo pel
+ o anúncio B (PDV) ou diminua o raio para 15 km.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15M
@@ -241,9 +241,9 @@ DTSTART:20261117T120000Z
 DTEND:20261117T123000Z
 SUMMARY:📲 Anúncio: Ligar o anúncio B (PDV)
 DESCRIPTION:Anúncio • Ligar o anúncio B (PDV)\n\nO que fazer: Criar u
- m segundo anúncio com a arte B e o texto 2\nDetalhes: Mesmo público e 
- mesma verba. Deixe A e B rodando juntos por 5 dias e compare o custo por
-  conversa.
+ m segundo anúncio com a arte B e o texto 2\nDetalhes: Mesmo público. D
+ ivida os R$ 10 por dia: R$ 5 no A e R$ 5 no B\, por 5 dias\, e compare o
+  custo por conversa.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15M
@@ -461,8 +461,9 @@ DTEND:20261124T123000Z
 SUMMARY:📲 Anúncio: Ligar o anúncio C (Black Friday)
 DESCRIPTION:Anúncio • Ligar o anúncio C (Black Friday)\n\nO que fazer
  : Criar o anúncio com a arte C e o texto 3\, até 28/11\nDetalhes: Mesm
- o público. Pode subir a verba para R$ 50 por dia nesses 5 dias\, que é
-  quando o comerciante sente a dor.
+ o público. Coloque os R$ 10 por dia só no C nesses 5 dias\, que é qua
+ ndo o comerciante sente a dor. Se quiser\, suba para R$ 15 só nessa sem
+ ana.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15M
