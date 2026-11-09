@@ -10,30 +10,32 @@ X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:unitec-2026-11-10-0@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261110T220000Z
-DTEND:20261110T223000Z
-SUMMARY:📲 Story: Repost do Reels "Caderno"
-DESCRIPTION:Story • Repost do Reels "Caderno"\n\nGancho: Compartilhe o 
- Reels de ontem nos Stories\nO que mostrar: Reels publicado + sticker de 
- LINK para wa.me/5547984002117\nLegenda: Já viu? 👀 Toque no link e pe
- ça sua demonstração.\n\nWhatsApp: wa.me/5547984002117
+DTSTART:20261110T120000Z
+DTEND:20261110T123000Z
+SUMMARY:📲 Anúncio: Ligar o anúncio A (caderno)
+DESCRIPTION:Anúncio • Ligar o anúncio A (caderno)\n\nO que fazer: Imp
+ ulsionar o Reels do caderno com objetivo "Mensagens no WhatsApp"\nDetalh
+ es: Público: raio de 25 km de Camboriú\, 25 a 60 anos\, interesses em 
+ pequenas empresas\, varejo e comércio. Verba: R$ 30 a 50 por dia\, por 
+ 7 dias. Use o texto 1 da seção Anúncios.
 BEGIN:VALARM
 ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Repost do Reels "Caderno"
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Ligar o anúncio A (caderno)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-11-1@unitecnologiasc.com.br
+UID:unitec-2026-11-10-1@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261111T220000Z
-DTEND:20261111T223000Z
+DTSTART:20261110T220000Z
+DTEND:20261110T223000Z
 SUMMARY:📲 Reels: Venda em segundos no PDV
 DESCRIPTION:Reels • Venda em segundos no PDV\n\nGancho: Quanto tempo le
  va uma venda na sua loja?\nO que mostrar: Gravação de tela: passar 3 p
- rodutos\, F-keys\, finalizar com PIX. Cronômetro no canto.\nLegenda: Ve
- nda rápida\, fila andando. ⚡ Quer ver no seu caixa? Chama no WhatsApp
- .\n\nWhatsApp: wa.me/5547984002117
+ rodutos com atalhos do teclado e finalizar com PIX. Cronômetro no canto
+ .\nLegenda: Venda rápida\, fila andando. ⚡ Quer ver no seu caixa? Cha
+ ma no WhatsApp.\nStory do dia: Repost do Reels do caderno com sticker de
+  LINK para o WhatsApp\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -47,7 +49,31 @@ DESCRIPTION:Amanhã: Reels – Venda em segundos no PDV. Gravar/preparar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-12-2@unitecnologiasc.com.br
+UID:unitec-2026-11-11-2@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261111T220000Z
+DTEND:20261111T223000Z
+SUMMARY:📲 Reels: PIX e cartão na mesma venda
+DESCRIPTION:Reels • PIX e cartão na mesma venda\n\nGancho: O cliente q
+ uer pagar metade no PIX e metade no cartão. E agora?\nO que mostrar: Te
+ la de Forma de Pagamento dividindo a venda em duas formas. Fechar com o 
+ cupom saindo.\nLegenda: Pagamento dividido sem calculadora. ✅\nStory d
+ o dia: Enquete: "Sua loja aceita PIX no caixa?"\nWhatsApp: wa.me/5547984
+ 002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – PIX e cartão na mesma venda
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – PIX e cartão na mesma venda. Gravar/prepa
+ rar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-12-3@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261112T150000Z
 DTEND:20261112T153000Z
@@ -56,9 +82,9 @@ SUMMARY:📲 Carrossel: 5 sinais de que o estoque está te dando prejuíz
 DESCRIPTION:Carrossel • 5 sinais de que o estoque está te dando preju
  ízo\n\nGancho: Seu estoque bate com a prateleira?\nO que mostrar: 5 sli
  des: produto parado\, falta no dia de movimento\, compra repetida\, perd
- a sem registro\, inventário que nunca fecha. Último slide: CTA.\nLegen
- da: Quantos desses acontecem na sua loja? Comente o número 👇\n\nWhat
- sApp: wa.me/5547984002117
+ a sem registro\, inventário que nunca fecha. Último slide: CTA do What
+ sApp.\nLegenda: Quantos desses acontecem na sua loja? Comente o número 
+ 👇\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -73,149 +99,16 @@ DESCRIPTION:Amanhã: Carrossel – 5 sinais de que o estoque está te dan
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-13-3@unitecnologiasc.com.br
+UID:unitec-2026-11-12-4@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261113T220000Z
-DTEND:20261113T223000Z
-SUMMARY:📲 Reels: PIX\, cartão\, dinheiro ou boleto na mesma venda
-DESCRIPTION:Reels • PIX\, cartão\, dinheiro ou boleto na mesma venda\n
- \nGancho: O cliente quer pagar metade no PIX e metade no cartão. E agor
- a?\nO que mostrar: Tela de Forma de Pagamento dividindo uma venda em dua
- s formas. Fechar com o cupom saindo.\nLegenda: Pagamento dividido sem ca
- lculadora. ✅\n\nWhatsApp: wa.me/5547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – PIX\, cartão\, dinheiro ou bolet
- o na mesma venda
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – PIX\, cartão\, dinheiro ou boleto na mesm
- a venda. Gravar/preparar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-14-4@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261114T130000Z
-DTEND:20261114T133000Z
-SUMMARY:📲 Reels (opcional): Quem está por trás da Unitecnologia
-DESCRIPTION:Reels (opcional) • Quem está por trás da Unitecnologia\n\
- nGancho: A gente não é só um sistema.\nO que mostrar: Vídeo curto da
-  equipe/escritório\, alguém atendendo cliente\, implantação em loja.
- \nLegenda: Atendimento local em Camboriú e região. 📍\n\nWhatsApp: w
- a.me/5547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels (opcional) – Quem está por trás d
- a Unitecnologia
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels (opcional) – Quem está por trás da Unitecn
- ologia. Gravar/preparar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-16-5@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261116T150000Z
-DTEND:20261116T153000Z
-SUMMARY:📲 Reels: Caixa que fecha em 2 minutos
-DESCRIPTION:Reels • Caixa que fecha em 2 minutos\n\nGancho: Fechar o ca
- ixa demora mais que o expediente?\nO que mostrar: Fechamento de caixa no
-  sistema: sangria\, suprimento\, resumo. Mostrar o total batendo.\nLegen
- da: Caixa fechado\, conferido e sem dor de cabeça.\n\nWhatsApp: wa.me/5
- 547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Caixa que fecha em 2 minutos
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Caixa que fecha em 2 minutos. Gravar/prepa
- rar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-17-6@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261117T220000Z
-DTEND:20261117T223000Z
-SUMMARY:📲 Story: Enquete: qual sua maior dor?
-DESCRIPTION:Story • Enquete: qual sua maior dor?\n\nGancho: Enquete nos
-  Stories\nO que mostrar: Sticker de enquete: "Estoque" x "Nota fiscal". 
- Depois\, sticker de LINK do WhatsApp.\nLegenda: Vote aí! Os próximos v
- ídeos vão responder a mais votada.\n\nWhatsApp: wa.me/5547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Enquete: qual sua maior dor?
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-18-7@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261118T220000Z
-DTEND:20261118T223000Z
-SUMMARY:📲 Reels: NF-e em 1 clique
-DESCRIPTION:Reels • NF-e em 1 clique\n\nGancho: Ainda digita nota fisca
- l campo por campo?\nO que mostrar: Venda virando NF-e: escolher cliente\
- , conferir\, transmitir\, "Autorizada". Dados de clientes desfocados.\nL
- egenda: Nota fiscal sem retrabalho. 🧾\n\nWhatsApp: wa.me/554798400211
- 7
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – NF-e em 1 clique
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – NF-e em 1 clique. Gravar/preparar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-19-8@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261119T150000Z
-DTEND:20261119T153000Z
-SUMMARY:📲 Carrossel: Reforma tributária: o que muda em 2027
-DESCRIPTION:Carrossel • Reforma tributária: o que muda em 2027\n\nGanc
- ho: CBS e IBS: o que o comerciante precisa saber\nO que mostrar: Linha d
- o tempo: 2026 teste\, 2027 CBS substitui PIS/Cofins\, 2029–2032 transi
- ção\, 2033 modelo completo. Aviso: conteúdo informativo\, confirme co
- m seu contador.\nLegenda: Salve para consultar depois e marque seu conta
- dor. 📌\n\nWhatsApp: wa.me/5547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Carrossel – Reforma tributária: o que mu
- da em 2027
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:Amanhã: Carrossel – Reforma tributária: o que muda em 202
- 7. Gravar/preparar hoje.
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-20-9@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261120T220000Z
-DTEND:20261120T223000Z
+DTSTART:20261112T220000Z
+DTEND:20261112T223000Z
 SUMMARY:📲 Reels: Estoque mínimo: o sistema avisa antes de acabar
 DESCRIPTION:Reels • Estoque mínimo: o sistema avisa antes de acabar\n\
  nGancho: Perdeu venda porque o produto acabou?\nO que mostrar: Cadastro 
- com estoque mínimo + relatório de produtos abaixo do mínimo.\nLegenda
- : Nunca mais "acabou\, volta amanhã".\n\nWhatsApp: wa.me/5547984002117
+ com estoque mínimo e relatório de produtos abaixo do mínimo.\nLegenda
+ : Nunca mais "acabou\, volta amanhã".\nStory do dia: Bastidor: alguém 
+ da equipe atendendo cliente\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -230,39 +123,323 @@ DESCRIPTION:Amanhã: Reels – Estoque mínimo: o sistema avisa antes de
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-21-10@unitecnologiasc.com.br
+UID:unitec-2026-11-13-5@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261121T130000Z
-DTEND:20261121T133000Z
-SUMMARY:📲 Reels (opcional): Antes x depois: caderno x sistema
-DESCRIPTION:Reels (opcional) • Antes x depois: caderno x sistema\n\nGan
- cho: De um lado o caderno. Do outro\, o Unitec ERP.\nO que mostrar: Tela
-  dividida: anotação à mão x mesma operação no sistema.\nLegenda: Q
- ual lado é a sua loja hoje? 😅\n\nWhatsApp: wa.me/5547984002117
+DTSTART:20261113T220000Z
+DTEND:20261113T223000Z
+SUMMARY:📲 Reels: 3 erros que fazem o caixa não fechar
+DESCRIPTION:Reels • 3 erros que fazem o caixa não fechar\n\nGancho: Se
+ u caixa nunca bate? Pode ser um desses 3.\nO que mostrar: Dica falada: t
+ roco sem registro\, sangria sem lançar\, venda fora do sistema. Mostrar
+  como o sistema registra cada um.\nLegenda: Salve para mostrar para quem
+  fecha o caixa. 📌\nStory do dia: Caixinha de perguntas: "Qual sua dú
+ vida sobre sistema?"\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels (opcional) – Antes x depois: cadern
- o x sistema
+DESCRIPTION:Postar em 1 hora: Reels – 3 erros que fazem o caixa não fe
+ char
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels (opcional) – Antes x depois: caderno x siste
- ma. Gravar/preparar hoje.
+DESCRIPTION:Amanhã: Reels – 3 erros que fazem o caixa não fechar. Gra
+ var/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-23-11@unitecnologiasc.com.br
+UID:unitec-2026-11-14-6@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261123T150000Z
-DTEND:20261123T153000Z
+DTSTART:20261114T130000Z
+DTEND:20261114T133000Z
+SUMMARY:📲 Reels: Quem está por trás da Unitecnologia
+DESCRIPTION:Reels • Quem está por trás da Unitecnologia\n\nGancho: A 
+ gente não é só um sistema.\nO que mostrar: Vídeo curto da equipe e d
+ o escritório\, alguém atendendo cliente\, implantação em loja.\nLege
+ nda: Atendimento local em Camboriú e região. 📍\nStory do dia: Foto 
+ da equipe com "bom sábado"\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Quem está por trás da Unitecnol
+ ogia
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Quem está por trás da Unitecnologia. Gra
+ var/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-14-7@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261114T210000Z
+DTEND:20261114T213000Z
+SUMMARY:📲 Anúncio: Revisar o anúncio A
+DESCRIPTION:Anúncio • Revisar o anúncio A\n\nO que fazer: Abrir o Ger
+ enciador de Anúncios e ver o custo por conversa\nDetalhes: Se a convers
+ a custar até R$ 10\, mantenha. Se passar de R$ 15\, troque o criativo p
+ elo anúncio B (PDV).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Revisar o anúncio A
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-15-8@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261115T140000Z
+DTEND:20261115T143000Z
+SUMMARY:📲 Reels: Antes x depois: caderno x sistema
+DESCRIPTION:Reels • Antes x depois: caderno x sistema\n\nGancho: De um 
+ lado o caderno. Do outro\, o Unitec ERP.\nO que mostrar: Tela dividida: 
+ anotação à mão x a mesma operação no sistema.\nLegenda: Qual lado 
+ é a sua loja hoje? 😅\nStory do dia: Repost do Reels de ontem\nWhatsA
+ pp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Antes x depois: caderno x sistema
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Antes x depois: caderno x sistema. Gravar/
+ preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-16-9@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261116T220000Z
+DTEND:20261116T223000Z
+SUMMARY:📲 Reels: Caixa que fecha em 2 minutos
+DESCRIPTION:Reels • Caixa que fecha em 2 minutos\n\nGancho: Fechar o ca
+ ixa demora mais que o expediente?\nO que mostrar: Fechamento de caixa no
+  sistema: sangria\, suprimento e resumo. Mostrar o total batendo.\nLegen
+ da: Caixa fechado\, conferido e sem dor de cabeça.\nStory do dia: Enque
+ te: "Estoque" x "Nota fiscal": qual dá mais dor de cabeça?\nWhatsApp: 
+ wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Caixa que fecha em 2 minutos
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Caixa que fecha em 2 minutos. Gravar/prepa
+ rar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-17-10@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261117T120000Z
+DTEND:20261117T123000Z
+SUMMARY:📲 Anúncio: Ligar o anúncio B (PDV)
+DESCRIPTION:Anúncio • Ligar o anúncio B (PDV)\n\nO que fazer: Criar u
+ m segundo anúncio com a arte B e o texto 2\nDetalhes: Mesmo público e 
+ mesma verba. Deixe A e B rodando juntos por 5 dias e compare o custo por
+  conversa.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Ligar o anúncio B (PDV)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-17-11@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261117T220000Z
+DTEND:20261117T223000Z
+SUMMARY:📲 Reels: NF-e em 1 clique
+DESCRIPTION:Reels • NF-e em 1 clique\n\nGancho: Ainda digita nota fisca
+ l campo por campo?\nO que mostrar: Venda virando NF-e: escolher cliente\
+ , conferir\, transmitir e "Autorizada". Dados de clientes desfocados.\nL
+ egenda: Nota fiscal sem retrabalho. 🧾\nStory do dia: Resultado da enq
+ uete + LINK do WhatsApp\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – NF-e em 1 clique
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – NF-e em 1 clique. Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-18-12@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261118T220000Z
+DTEND:20261118T223000Z
+SUMMARY:📲 Reels: NFC-e direto do caixa
+DESCRIPTION:Reels • NFC-e direto do caixa\n\nGancho: O cupom fiscal sai
+  antes do cliente guardar o cartão.\nO que mostrar: Finalizar a venda e
+  mostrar a NFC-e autorizada e impressa.\nLegenda: Cupom fiscal sem compl
+ icação.\nStory do dia: Bastidor de uma implantação\nWhatsApp: wa.me/
+ 5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – NFC-e direto do caixa
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – NFC-e direto do caixa. Gravar/preparar hoj
+ e.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-19-13@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261119T150000Z
+DTEND:20261119T153000Z
+SUMMARY:📲 Carrossel: Reforma tributária: o que muda em 2027
+DESCRIPTION:Carrossel • Reforma tributária: o que muda em 2027\n\nGanc
+ ho: CBS e IBS: o que o comerciante precisa saber\nO que mostrar: Linha d
+ o tempo: 2026 teste\, 2027 CBS substitui PIS/Cofins\, 2029 a 2032 transi
+ ção\, 2033 modelo completo. Aviso: conteúdo informativo\, confirme co
+ m seu contador.\nLegenda: Salve para consultar depois e marque seu conta
+ dor. 📌\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Carrossel – Reforma tributária: o que mu
+ da em 2027
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Carrossel – Reforma tributária: o que muda em 202
+ 7. Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-19-14@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261119T220000Z
+DTEND:20261119T223000Z
+SUMMARY:📲 Reels: Mito ou verdade: sistema é caro e difícil?
+DESCRIPTION:Reels • Mito ou verdade: sistema é caro e difícil?\n\nGan
+ cho: Mito ou verdade? 🤔\nO que mostrar: Responder 3 mitos: "é caro"\
+ , "é difícil"\, "demora para implantar". Mostrar o treinamento.\nLegen
+ da: Qual desses você já ouviu? 👇\nStory do dia: Quiz: "Quanto tempo
+  leva para aprender o caixa?"\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Mito ou verdade: sistema é caro 
+ e difícil?
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Mito ou verdade: sistema é caro e difíci
+ l?. Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-20-15@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261120T220000Z
+DTEND:20261120T223000Z
+SUMMARY:📲 Reels: Contas a pagar sem perder vencimento
+DESCRIPTION:Reels • Contas a pagar sem perder vencimento\n\nGancho: Já
+  pagou juros por esquecer um boleto?\nO que mostrar: Tela de contas a pa
+ gar com vencimentos da semana e baixa de um pagamento.\nLegenda: Nenhum 
+ vencimento esquecido. 📅\nStory do dia: Dica rápida em texto + LINK\n
+ WhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Contas a pagar sem perder vencime
+ nto
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Contas a pagar sem perder vencimento. Grav
+ ar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-21-16@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261121T130000Z
+DTEND:20261121T133000Z
+SUMMARY:📲 Reels: Depoimento de cliente #1
+DESCRIPTION:Reels • Depoimento de cliente #1\n\nGancho: Como era antes 
+ do sistema?\nO que mostrar: Cliente contando em 20 a 30 segundos como me
+ lhorou. Peça autorização para gravar.\nLegenda: Quem usa\, recomenda.
+  🙌\nStory do dia: Repost do depoimento\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Depoimento de cliente #1
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Depoimento de cliente #1. Gravar/preparar 
+ hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-21-17@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261121T210000Z
+DTEND:20261121T213000Z
+SUMMARY:📲 Anúncio: Escolher o anúncio vencedor
+DESCRIPTION:Anúncio • Escolher o anúncio vencedor\n\nO que fazer: Com
+ parar A e B pelo custo por conversa\nDetalhes: Desligue o mais caro e pa
+ sse a verba para o mais barato. Responda todas as conversas no mesmo dia
+ .
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Escolher o anúncio vencedor
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-22-18@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261122T140000Z
+DTEND:20261122T143000Z
+SUMMARY:📲 Reels: POV: dono de loja no fim do mês
+DESCRIPTION:Reels • POV: dono de loja no fim do mês\n\nGancho: POV: é
+  dia 30 e você precisa saber se teve lucro.\nO que mostrar: Humor: cade
+ rno\, calculadora e papelada x o painel do sistema com o resultado do m
+ ês.\nLegenda: Marca aquele amigo que vive nessa. 😂\nStory do dia: Ca
+ ixinha de perguntas\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – POV: dono de loja no fim do mês
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – POV: dono de loja no fim do mês. Gravar/p
+ reparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-23-19@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261123T220000Z
+DTEND:20261123T223000Z
 SUMMARY:📲 Reels: Sua loja está pronta para a Black Friday?
 DESCRIPTION:Reels • Sua loja está pronta para a Black Friday?\n\nGanch
  o: Faltam 4 dias. Seu estoque aguenta?\nO que mostrar: Checar estoque do
  s mais vendidos\, ajustar preços\, conferir caixa e impressora.\nLegend
- a: Prepare a loja antes da correria. 🛒\n\nWhatsApp: wa.me/55479840021
- 17
+ a: Prepare a loja antes da correria. 🛒\nStory do dia: Contagem regres
+ siva para 27/11\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -277,23 +454,47 @@ DESCRIPTION:Amanhã: Reels – Sua loja está pronta para a Black Friday?
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-24-12@unitecnologiasc.com.br
+UID:unitec-2026-11-24-20@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261124T220000Z
-DTEND:20261124T223000Z
-SUMMARY:📲 Story: Contagem regressiva Black Friday
-DESCRIPTION:Story • Contagem regressiva Black Friday\n\nGancho: Sticker
-  de contagem regressiva\nO que mostrar: Contagem até 27/11 + dica rápi
- da em texto + LINK do WhatsApp.\nLegenda: Precisa de ajuda para preparar
-  o sistema? Fala com a gente.\n\nWhatsApp: wa.me/5547984002117
+DTSTART:20261124T120000Z
+DTEND:20261124T123000Z
+SUMMARY:📲 Anúncio: Ligar o anúncio C (Black Friday)
+DESCRIPTION:Anúncio • Ligar o anúncio C (Black Friday)\n\nO que fazer
+ : Criar o anúncio com a arte C e o texto 3\, até 28/11\nDetalhes: Mesm
+ o público. Pode subir a verba para R$ 50 por dia nesses 5 dias\, que é
+  quando o comerciante sente a dor.
 BEGIN:VALARM
 ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Contagem regressiva Black Friday
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Ligar o anúncio C (Black Friday)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-25-13@unitecnologiasc.com.br
+UID:unitec-2026-11-24-21@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261124T220000Z
+DTEND:20261124T223000Z
+SUMMARY:📲 Reels: Cadastro de produto com código de barras
+DESCRIPTION:Reels • Cadastro de produto com código de barras\n\nGancho
+ : Cadastrar produto novo leva quanto tempo aí?\nO que mostrar: Cadastro
+  rápido lendo o código de barras\, preço e estoque mínimo.\nLegenda:
+  Produto cadastrado e pronto para vender.\nStory do dia: Contagem regres
+ siva + LINK\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Cadastro de produto com código d
+ e barras
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Cadastro de produto com código de barras.
+  Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-25-22@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261125T220000Z
 DTEND:20261125T223000Z
@@ -301,8 +502,8 @@ SUMMARY:📲 Reels: Monitor de vendas no dia de movimento
 DESCRIPTION:Reels • Monitor de vendas no dia de movimento\n\nGancho: Qu
  anto você vendeu hoje? Sem esperar fechar o caixa.\nO que mostrar: Moni
  tor de vendas atualizando pedidos e faturamento. Dados de clientes desfo
- cados.\nLegenda: Acompanhe o dia em tempo real. 📈\n\nWhatsApp: wa.me/
- 5547984002117
+ cados.\nLegenda: Acompanhe o dia em tempo real. 📈\nStory do dia: Cont
+ agem regressiva\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -317,7 +518,7 @@ DESCRIPTION:Amanhã: Reels – Monitor de vendas no dia de movimento. Gra
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-26-14@unitecnologiasc.com.br
+UID:unitec-2026-11-26-23@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261126T150000Z
 DTEND:20261126T153000Z
@@ -325,8 +526,8 @@ SUMMARY:📲 Carrossel: Checklist do comerciante para a Black Friday
 DESCRIPTION:Carrossel • Checklist do comerciante para a Black Friday\n\
  nGancho: 7 itens para conferir hoje\nO que mostrar: Estoque\, preços\, 
  troco\, bobina da impressora\, certificado digital válido\, backup feit
- o\, equipe treinada.\nLegenda: Salve e confira um por um ✅\n\nWhatsApp
- : wa.me/5547984002117
+ o e equipe treinada.\nLegenda: Salve e confira um por um ✅\nWhatsApp: 
+ wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -341,7 +542,30 @@ DESCRIPTION:Amanhã: Carrossel – Checklist do comerciante para a Black
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-27-15@unitecnologiasc.com.br
+UID:unitec-2026-11-26-24@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261126T220000Z
+DTEND:20261126T223000Z
+SUMMARY:📲 Reels: Entrada de compras no estoque
+DESCRIPTION:Reels • Entrada de compras no estoque\n\nGancho: A mercador
+ ia chegou. E o estoque\, atualizou?\nO que mostrar: Lançar uma compra d
+ e fornecedor e mostrar o estoque subindo.\nLegenda: Mercadoria que entra
+ \, estoque que bate.\nStory do dia: Checklist em texto + LINK\nWhatsApp:
+  wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Entrada de compras no estoque
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Entrada de compras no estoque. Gravar/prep
+ arar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-27-25@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261127T103000Z
 DTEND:20261127T110000Z
@@ -349,8 +573,9 @@ SUMMARY:📲 Reels: Black Friday: bom dia e boas vendas
 DESCRIPTION:Reels • Black Friday: bom dia e boas vendas\n\nGancho: Hoje
   é dia de vender muito.\nO que mostrar: Vídeo curto e animado com dica
  s rápidas do dia (ou oferta da Unitec\, se houver).\nLegenda: Boas vend
- as! Qualquer problema no sistema\, chama no WhatsApp. 💬\n\nWhatsApp: 
- wa.me/5547984002117
+ as! Qualquer problema no sistema\, chama no WhatsApp. 💬\nStory do dia
+ : Suporte de plantão: "estamos online hoje"\nWhatsApp: wa.me/5547984002
+ 117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -365,37 +590,64 @@ DESCRIPTION:Amanhã: Reels – Black Friday: bom dia e boas vendas. Grava
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-28-16@unitecnologiasc.com.br
+UID:unitec-2026-11-28-26@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261128T130000Z
 DTEND:20261128T133000Z
-SUMMARY:📲 Reels (opcional): Depoimento de cliente
-DESCRIPTION:Reels (opcional) • Depoimento de cliente\n\nGancho: Como er
- a antes do sistema?\nO que mostrar: Cliente contando em 20–30s como me
- lhorou (pedir autorização para gravar).\nLegenda: Quem usa\, recomenda
- . 🙌\n\nWhatsApp: wa.me/5547984002117
+SUMMARY:📲 Reels: Depoimento de cliente #2
+DESCRIPTION:Reels • Depoimento de cliente #2\n\nGancho: Como foi a Blac
+ k Friday na loja?\nO que mostrar: Cliente contando como foi o dia de mov
+ imento com o sistema.\nLegenda: Dia corrido\, caixa tranquilo. 🙌\nSto
+ ry do dia: Bastidores do pós-Black Friday\nWhatsApp: wa.me/554798400211
+ 7
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels (opcional) – Depoimento de cliente
+DESCRIPTION:Postar em 1 hora: Reels – Depoimento de cliente #2
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels (opcional) – Depoimento de cliente. Gravar/p
- reparar hoje.
+DESCRIPTION:Amanhã: Reels – Depoimento de cliente #2. Gravar/preparar 
+ hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-30-17@unitecnologiasc.com.br
+UID:unitec-2026-11-29-27@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261130T150000Z
-DTEND:20261130T153000Z
+DTSTART:20261129T140000Z
+DTEND:20261129T143000Z
+SUMMARY:📲 Reels: Quanto você perde com produto parado?
+DESCRIPTION:Reels • Quanto você perde com produto parado?\n\nGancho: E
+ sse produto parado na prateleira tem um custo.\nO que mostrar: Conta sim
+ ples na tela: valor parado x meses. Mostrar o relatório de produtos sem
+  giro.\nLegenda: Estoque parado é dinheiro parado. 💸\nStory do dia: 
+ Enquete: "Você sabe quais produtos não giram?"\nWhatsApp: wa.me/554798
+ 4002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Quanto você perde com produto pa
+ rado?
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Quanto você perde com produto parado?. Gr
+ avar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-30-28@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261130T220000Z
+DTEND:20261130T223000Z
 SUMMARY:📲 Reels: Contas a receber: saiba quem já pagou
 DESCRIPTION:Reels • Contas a receber: saiba quem já pagou\n\nGancho: Q
  uem te deve? Sem procurar papel.\nO que mostrar: Tela de contas a recebe
  r filtrando vencidos e recebidos. Nomes desfocados.\nLegenda: Seu dinhei
- ro na palma da mão. 💰\n\nWhatsApp: wa.me/5547984002117
+ ro na palma da mão. 💰\nStory do dia: LINK do WhatsApp\nWhatsApp: wa.
+ me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -410,32 +662,54 @@ DESCRIPTION:Amanhã: Reels – Contas a receber: saiba quem já pagou. Gr
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-01-18@unitecnologiasc.com.br
+UID:unitec-2026-12-01-29@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261201T220000Z
-DTEND:20261201T223000Z
-SUMMARY:📲 Story: Bastidores de uma implantação
-DESCRIPTION:Story • Bastidores de uma implantação\n\nGancho: Fotos/v
- ídeos curtos de uma instalação em loja\nO que mostrar: 3 stories: che
- gada\, configuração\, cliente vendendo. LINK do WhatsApp no último.\n
- Legenda: Implantação acompanhada do início ao fim.\n\nWhatsApp: wa.me
- /5547984002117
+DTSTART:20261201T120000Z
+DTEND:20261201T123000Z
+SUMMARY:📲 Anúncio: Balanço do mês dos anúncios
+DESCRIPTION:Anúncio • Balanço do mês dos anúncios\n\nO que fazer: S
+ omar conversas\, demonstrações e vendas fechadas\nDetalhes: Mantenha o
+  anúncio que trouxe venda. Se quiser\, lance a oferta "implantação gr
+ átis para as 10 primeiras lojas de dezembro".
 BEGIN:VALARM
 ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Bastidores de uma implantação
+TRIGGER:-PT15M
+DESCRIPTION:Anúncio: Balanço do mês dos anúncios
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-02-19@unitecnologiasc.com.br
+UID:unitec-2026-12-01-30@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261201T220000Z
+DTEND:20261201T223000Z
+SUMMARY:📲 Reels: Boletos gerados pelo sistema
+DESCRIPTION:Reels • Boletos gerados pelo sistema\n\nGancho: Ainda faz b
+ oleto no site do banco\, um por um?\nO que mostrar: Gerar boletos de uma
+  venda a prazo direto pelo sistema.\nLegenda: Venda a prazo organizada.\
+ nStory do dia: Bastidor de implantação\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Boletos gerados pelo sistema
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Boletos gerados pelo sistema. Gravar/prepa
+ rar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-02-31@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261202T220000Z
 DTEND:20261202T223000Z
 SUMMARY:📲 Reels: Ordem de serviço sem papel
 DESCRIPTION:Reels • Ordem de serviço sem papel\n\nGancho: Ainda anota 
  serviço em bloquinho?\nO que mostrar: Abrir OS\, adicionar peças e ser
- viço\, mudar status\, finalizar.\nLegenda: Do orçamento à entrega\, t
- udo registrado. 🔧\n\nWhatsApp: wa.me/5547984002117
+ viço\, mudar o status e finalizar.\nLegenda: Do orçamento à entrega\,
+  tudo registrado. 🔧\nStory do dia: Quiz rápido\nWhatsApp: wa.me/5547
+ 984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
@@ -449,15 +723,15 @@ DESCRIPTION:Amanhã: Reels – Ordem de serviço sem papel. Gravar/prepar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-03-20@unitecnologiasc.com.br
+UID:unitec-2026-12-03-32@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261203T150000Z
 DTEND:20261203T153000Z
 SUMMARY:📲 Carrossel: Natal: como preparar o estoque
 DESCRIPTION:Carrossel • Natal: como preparar o estoque\n\nGancho: O Nat
  al começa no estoque\nO que mostrar: Ver o que mais vendeu no ano passa
- do\, comprar com antecedência\, conferir mínimo\, organizar trocas.\nL
- egenda: Planeje agora e venda mais em dezembro. 🎄\n\nWhatsApp: wa.me/
+ do\, comprar com antecedência\, conferir o mínimo e organizar trocas.\
+ nLegenda: Planeje agora e venda mais em dezembro. 🎄\nWhatsApp: wa.me/
  5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -473,48 +747,162 @@ DESCRIPTION:Amanhã: Carrossel – Natal: como preparar o estoque. Gravar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-04-21@unitecnologiasc.com.br
+UID:unitec-2026-12-03-33@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261204T220000Z
-DTEND:20261204T223000Z
-SUMMARY:📲 Reels: Relatórios: o que mais vende na sua loja
-DESCRIPTION:Reels • Relatórios: o que mais vende na sua loja\n\nGancho
- : Você sabe qual produto mais dá lucro?\nO que mostrar: Painel com fat
- uramento\, margem e produtos mais vendidos.\nLegenda: Decida com número
- s\, não no achismo. 📊\n\nWhatsApp: wa.me/5547984002117
+DTSTART:20261203T220000Z
+DTEND:20261203T223000Z
+SUMMARY:📲 Reels: O produto que mais dá lucro
+DESCRIPTION:Reels • O produto que mais dá lucro\n\nGancho: Você sabe 
+ qual produto mais dá lucro?\nO que mostrar: Painel com faturamento\, ma
+ rgem e produtos mais vendidos.\nLegenda: Decida com números\, não no a
+ chismo. 📊\nStory do dia: Dica em texto\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Relatórios: o que mais vende na 
- sua loja
+DESCRIPTION:Postar em 1 hora: Reels – O produto que mais dá lucro
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Relatórios: o que mais vende na sua loja.
-  Gravar/preparar hoje.
+DESCRIPTION:Amanhã: Reels – O produto que mais dá lucro. Gravar/prepa
+ rar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-05-22@unitecnologiasc.com.br
+UID:unitec-2026-12-04-34@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261205T130000Z
-DTEND:20261205T133000Z
-SUMMARY:📲 Reels (opcional): Perguntas frequentes
-DESCRIPTION:Reels (opcional) • Perguntas frequentes\n\nGancho: "Demora 
- para implantar?" "Funciona sem internet?"\nO que mostrar: Responder 2–
- 3 dúvidas reais que os clientes fazem no WhatsApp.\nLegenda: Tem outra 
- dúvida? Manda nos comentários. 💬\n\nWhatsApp: wa.me/5547984002117
+DTSTART:20261204T220000Z
+DTEND:20261204T223000Z
+SUMMARY:📲 Reels: Perguntas frequentes
+DESCRIPTION:Reels • Perguntas frequentes\n\nGancho: "Demora para implan
+ tar?" "Funciona sem internet?"\nO que mostrar: Responder 2 ou 3 dúvidas
+  reais que os clientes fazem no WhatsApp.\nLegenda: Tem outra dúvida? M
+ anda nos comentários. 💬\nStory do dia: Caixinha de perguntas\nWhatsA
+ pp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels (opcional) – Perguntas frequentes
+DESCRIPTION:Postar em 1 hora: Reels – Perguntas frequentes
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels (opcional) – Perguntas frequentes. Gravar/pr
- eparar hoje.
+DESCRIPTION:Amanhã: Reels – Perguntas frequentes. Gravar/preparar hoje
+ .
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-05-35@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261205T130000Z
+DTEND:20261205T133000Z
+SUMMARY:📲 Reels: Depoimento de cliente #3
+DESCRIPTION:Reels • Depoimento de cliente #3\n\nGancho: Por que você e
+ scolheu o Unitec ERP?\nO que mostrar: Cliente em 20 a 30 segundos.\nLege
+ nda: Quem usa\, recomenda. 🙌\nStory do dia: Repost do depoimento\nWha
+ tsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Depoimento de cliente #3
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Depoimento de cliente #3. Gravar/preparar 
+ hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-06-36@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261206T140000Z
+DTEND:20261206T143000Z
+SUMMARY:📲 Reels: Um dia na Unitecnologia
+DESCRIPTION:Reels • Um dia na Unitecnologia\n\nGancho: Como é um dia d
+ e trabalho aqui?\nO que mostrar: Bastidores: suporte\, visita a cliente\
+ , treinamento.\nLegenda: A gente cuida do sistema para você cuidar da l
+ oja.\nStory do dia: Bastidores\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Um dia na Unitecnologia
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Um dia na Unitecnologia. Gravar/preparar h
+ oje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-07-37@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261207T220000Z
+DTEND:20261207T223000Z
+SUMMARY:📲 Reels: NFS-e para quem vende serviço
+DESCRIPTION:Reels • NFS-e para quem vende serviço\n\nGancho: Presta se
+ rviço e ainda emite nota no site da prefeitura?\nO que mostrar: Emitir 
+ uma NFS-e pelo sistema.\nLegenda: Nota de serviço sem trocar de tela.\n
+ Story do dia: Enquete: "Você vende produto\, serviço ou os dois?"\nWha
+ tsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – NFS-e para quem vende serviço
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – NFS-e para quem vende serviço. Gravar/pre
+ parar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-08-38@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261208T220000Z
+DTEND:20261208T223000Z
+SUMMARY:📲 Reels: Em quanto tempo o funcionário aprende o caixa
+DESCRIPTION:Reels • Em quanto tempo o funcionário aprende o caixa\n\nG
+ ancho: Funcionário novo no caixa. E agora?\nO que mostrar: Treinamento 
+ real: alguém que nunca usou fazendo a primeira venda.\nLegenda: Simples
+  de aprender\, rápido de usar.\nStory do dia: LINK do WhatsApp\nWhatsAp
+ p: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – Em quanto tempo o funcionário ap
+ rende o caixa
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – Em quanto tempo o funcionário aprende o c
+ aixa. Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-12-09-39@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261209T220000Z
+DTEND:20261209T223000Z
+SUMMARY:📲 Reels: 30 dias\, 30 vídeos
+DESCRIPTION:Reels • 30 dias\, 30 vídeos\n\nGancho: Qual desses vídeos
+  foi o seu favorito?\nO que mostrar: Montagem rápida com trechos dos me
+ lhores Reels do mês + oferta de dezembro.\nLegenda: Comente o número d
+ o seu favorito 👇 e chama no WhatsApp para ver ao vivo.\nStory do dia:
+  Oferta de dezembro + LINK\nWhatsApp: wa.me/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – 30 dias\, 30 vídeos
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Amanhã: Reels – 30 dias\, 30 vídeos. Gravar/preparar hoje
+ .
 END:VALARM
 END:VEVENT
 END:VCALENDAR
