@@ -46,24 +46,26 @@ UID:unitec-2026-11-10-2@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261110T220000Z
 DTEND:20261110T223000Z
-SUMMARY:📲 Reels: Caixa rápido\, fila andando (slides)
-DESCRIPTION:Reels • Caixa rápido\, fila andando (slides)\n\nGancho: Ca
- ixa rápido\, fila andando.\nO que mostrar: Sem gravação: Reels montad
- o com as artes de PDV (capa\, atalhos do teclado\, tela do caixa e chama
- da para o WhatsApp). Pronto na pasta.\nLegenda: Venda rápida\, fila and
- ando. ⚡ Quer ver no seu caixa? Chama no WhatsApp.\nStory do dia: Repos
- t do Reels do caderno (feito às 9h49)\nWhatsApp: wa.me/5547984002117
+SUMMARY:📲 Reels: 3 sinais de que sua loja precisa de um sistema
+DESCRIPTION:Reels • 3 sinais de que sua loja precisa de um sistema\n\nG
+ ancho: Atenção\, comerciante: 3 sinais de que sua loja precisa de um s
+ istema.\nO que mostrar: Sem gravação: Reels animado de 19 segundos (es
+ toque que não bate\, caixa que não fecha\, nota fiscal travando a fila
+  e o Unitec ERP resolvendo os 3). Pronto na pasta.\nLegenda: Quantos des
+ ses acontecem na sua loja? Comenta o número 👇 Se for 2 ou 3\, chama 
+ no WhatsApp.\nStory do dia: Repost do Reels do caderno (feito às 9h49)\
+ nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Caixa rápido\, fila andando (sli
- des)
+DESCRIPTION:Postar em 1 hora: Reels – 3 sinais de que sua loja precisa 
+ de um sistema
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Caixa rápido\, fila andando (slides). Gra
- var/preparar hoje.
+DESCRIPTION:Amanhã: Reels – 3 sinais de que sua loja precisa de um sis
+ tema. Gravar/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
