@@ -1,6 +1,6 @@
 {
-  "atualizado": "2026-11-09T19:40:00-03:00",
-  "saldo": 34.62,
+  "atualizado": "2026-11-10T09:11:00-03:00",
+  "saldo": 27.33,
   "meta": {
     "ideal": 5,
     "limite": 8
@@ -9,18 +9,25 @@
     {
       "id": "A",
       "nome": "Reels do caderno",
-      "status": "Em análise",
+      "status": "Ativo",
       "inicio": "2026-11-09",
       "fim": "2026-11-12",
       "verbaDia": 10,
       "total": 34.15,
       "destino": "WhatsApp e Direct",
       "publico": "Camboriú + 25 km · 26 a 59 anos",
-      "gasto": 0,
+      "gasto": 7.29,
       "conversas": 0,
-      "impressoes": 0
+      "impressoes": 132
     }
   ],
-  "historico": [],
-  "recomendacao": "O anúncio está em análise na Meta. Quando for aprovado, responda toda conversa em poucos minutos: isso deixa cada conversa mais barata."
+  "historico": [
+    {
+      "data": "2026-11-09",
+      "gasto": 7.29,
+      "conversas": 0,
+      "nota": "1º dia: aprovado e ativo; 132 visualizações, nenhuma conversa ainda (aprendizado)"
+    }
+  ],
+  "recomendacao": "Anúncio ainda em aprendizado (menos de 48h): não mexa por enquanto. Fique de olho no WhatsApp e responda em poucos minutos; se até amanhã à noite continuar sem conversas, pense em trocar pelo anúncio B (PDV)."
 }
