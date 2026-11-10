@@ -46,23 +46,24 @@ UID:unitec-2026-11-10-2@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261110T220000Z
 DTEND:20261110T223000Z
-SUMMARY:📲 Reels: Venda em segundos no PDV
-DESCRIPTION:Reels • Venda em segundos no PDV\n\nGancho: Quanto tempo le
- va uma venda na sua loja?\nO que mostrar: Gravação de tela: passar 3 p
- rodutos com atalhos do teclado e finalizar com PIX. Cronômetro no canto
- .\nLegenda: Venda rápida\, fila andando. ⚡ Quer ver no seu caixa? Cha
- ma no WhatsApp.\nStory do dia: Repost do Reels do caderno com sticker de
-  LINK para o WhatsApp\nWhatsApp: wa.me/5547984002117
+SUMMARY:📲 Reels: Caixa rápido\, fila andando (slides)
+DESCRIPTION:Reels • Caixa rápido\, fila andando (slides)\n\nGancho: Ca
+ ixa rápido\, fila andando.\nO que mostrar: Sem gravação: Reels montad
+ o com as artes de PDV (capa\, atalhos do teclado\, tela do caixa e chama
+ da para o WhatsApp). Pronto na pasta.\nLegenda: Venda rápida\, fila and
+ ando. ⚡ Quer ver no seu caixa? Chama no WhatsApp.\nStory do dia: Repos
+ t do Reels do caderno (feito às 9h49)\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Venda em segundos no PDV
+DESCRIPTION:Postar em 1 hora: Reels – Caixa rápido\, fila andando (sli
+ des)
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Venda em segundos no PDV. Gravar/preparar 
- hoje.
+DESCRIPTION:Amanhã: Reels – Caixa rápido\, fila andando (slides). Gra
+ var/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -70,23 +71,25 @@ UID:unitec-2026-11-11-3@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261111T220000Z
 DTEND:20261111T223000Z
-SUMMARY:📲 Reels: PIX e cartão na mesma venda
-DESCRIPTION:Reels • PIX e cartão na mesma venda\n\nGancho: O cliente q
- uer pagar metade no PIX e metade no cartão. E agora?\nO que mostrar: Te
- la de Forma de Pagamento dividindo a venda em duas formas. Fechar com o 
- cupom saindo.\nLegenda: Pagamento dividido sem calculadora. ✅\nStory d
- o dia: Enquete: "Sua loja aceita PIX no caixa?"\nWhatsApp: wa.me/5547984
- 002117
+SUMMARY:📲 Reels: POV: venda em 10 segundos com PIX
+DESCRIPTION:Reels • POV: venda em 10 segundos com PIX\n\nGancho: POV: v
+ ocê vende em 10 segundos.\nO que mostrar: Gravar de manhã em primeira 
+ pessoa (celular no peito ou na cabeça)\, com Consumidor Final: bipar 3 
+ produtos\, finalizar\, dividir em PIX e cartão\, cupom saindo. 20 a 30 
+ segundos\, sem falar. Colocar o vídeo na pasta Instagram - Unitec ERP.\
+ nLegenda: Venda rápida\, PIX ou cartão\, nota na hora. ⚡ Quer isso n
+ a sua loja? Chama no WhatsApp.\nStory do dia: Enquete: "Sua loja aceita 
+ PIX no caixa?"\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – PIX e cartão na mesma venda
+DESCRIPTION:Postar em 1 hora: Reels – POV: venda em 10 segundos com PIX
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – PIX e cartão na mesma venda. Gravar/prepa
- rar hoje.
+DESCRIPTION:Amanhã: Reels – POV: venda em 10 segundos com PIX. Gravar/
+ preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
