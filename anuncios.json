@@ -1,6 +1,6 @@
 {
-  "atualizado": "2026-11-10T09:11:00-03:00",
-  "saldo": 27.33,
+  "atualizado": "2026-11-11T09:47:00-03:00",
+  "saldo": 14.99,
   "meta": {
     "ideal": 5,
     "limite": 8
@@ -16,9 +16,9 @@
       "total": 34.15,
       "destino": "WhatsApp e Direct",
       "publico": "Camboriú + 25 km · 26 a 59 anos",
-      "gasto": 7.29,
-      "conversas": 0,
-      "impressoes": 132
+      "gasto": 21.27,
+      "conversas": 1,
+      "impressoes": 427
     }
   ],
   "historico": [
@@ -27,7 +27,13 @@
       "gasto": 7.29,
       "conversas": 0,
       "nota": "1º dia: aprovado e ativo; 132 visualizações, nenhuma conversa ainda (aprendizado)"
+    },
+    {
+      "data": "2026-11-10",
+      "gasto": 13.98,
+      "conversas": 1,
+      "nota": "2º dia: 1ª conversa; total 427 visualizações; custo por conversa R$ 21,27 (alto). Valor pode incluir parte de 11/11"
     }
   ],
-  "recomendacao": "Anúncio ainda em aprendizado (menos de 48h): não mexa por enquanto. Fique de olho no WhatsApp e responda em poucos minutos; se até amanhã à noite continuar sem conversas, pense em trocar pelo anúncio B (PDV)."
+  "recomendacao": "Custo por conversa está alto (R$ 21,27, meta até R$ 8). Deixe o anúncio terminar amanhã (12/11) sem colocar mais verba e, na próxima campanha, use o anúncio B (PDV) ou reduza o raio para 15 km. Responda hoje a mensagem pendente no Direct."
 }
