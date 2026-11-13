@@ -1,6 +1,6 @@
 {
-  "atualizado": "2026-11-12T09:11:01-03:00",
-  "saldo": 6.59,
+  "atualizado": "2026-11-13T09:15:00-03:00",
+  "saldo": 5.07,
   "meta": {
     "ideal": 5,
     "limite": 8
@@ -9,16 +9,16 @@
     {
       "id": "A",
       "nome": "Reels do caderno",
-      "status": "Ativo",
+      "status": "Concluído",
       "inicio": "2026-11-09",
       "fim": "2026-11-12",
       "verbaDia": 10,
       "total": 34.15,
       "destino": "WhatsApp e Direct",
       "publico": "Camboriú + 25 km · 26 a 59 anos",
-      "gasto": 28.03,
+      "gasto": 29.55,
       "conversas": 2,
-      "impressoes": 615
+      "impressoes": 684
     }
   ],
   "historico": [
@@ -39,7 +39,13 @@
       "gasto": 6.76,
       "conversas": 1,
       "nota": "3º dia: 2ª conversa; total 615 visualizações e 8 cliques; custo por conversa R$ 14,02 (acima de R$ 8). Termina hoje (12/11)"
+    },
+    {
+      "data": "2026-11-12",
+      "gasto": 1.52,
+      "conversas": 0,
+      "nota": "Último dia: anúncio concluído. Total R$ 29,55, 684 visualizações, 2 conversas; custo por conversa R$ 14,78 (acima de R$ 8). Saldo estimado (não apareceu na tela)"
     }
   ],
-  "recomendacao": "Custo por conversa ficou alto (R$ 14,02; meta até R$ 8). Deixe o anúncio terminar hoje sem colocar mais verba, responda as 2 conversas novas do Direct e, na próxima campanha, use o anúncio B (PDV) ou reduza o raio para 15 km."
+  "recomendacao": "Anúncio do caderno terminou com R$ 14,78 por conversa (meta até R$ 8). Não turbine de novo esse criativo: responda as conversas do Direct e, se quiser outra campanha, use o anúncio B (PDV) com raio de 15 km."
 }
