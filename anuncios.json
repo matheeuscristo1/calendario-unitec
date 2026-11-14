@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-13T09:15:00-03:00",
+  "atualizado": "2026-11-14T09:15:00-03:00",
   "saldo": 5.07,
   "meta": {
     "ideal": 5,
@@ -45,7 +45,13 @@
       "gasto": 1.52,
       "conversas": 0,
       "nota": "Último dia: anúncio concluído. Total R$ 29,55, 684 visualizações, 2 conversas; custo por conversa R$ 14,78 (acima de R$ 8). Saldo estimado (não apareceu na tela)"
+    },
+    {
+      "data": "2026-11-13",
+      "gasto": 0,
+      "conversas": 0,
+      "nota": "Sem anúncio ativo. Totais iguais (R$ 29,55, 684 visualizações, 2 conversas). Novo Reels orgânico \"No caixa da Ana · Ep. 1\" publicado (6 curtidas, 0 comentários)"
     }
   ],
-  "recomendacao": "Anúncio do caderno terminou com R$ 14,78 por conversa (meta até R$ 8). Não turbine de novo esse criativo: responda as conversas do Direct e, se quiser outra campanha, use o anúncio B (PDV) com raio de 15 km."
+  "recomendacao": "Nenhum anúncio rodando. Se quiser nova campanha, turbine o Reels \"No caixa da Ana\" (PDV) com raio de 15 km em vez de repetir o do caderno; antes, confira a conversa do Direct de terça que pode estar sem resposta."
 }
