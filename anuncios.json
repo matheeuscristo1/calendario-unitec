@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-15T09:15:00-03:00",
+  "atualizado": "2026-11-16T09:15:00-03:00",
   "saldo": 5.07,
   "meta": {
     "ideal": 5,
@@ -57,7 +57,13 @@
       "gasto": 0,
       "conversas": 0,
       "nota": "Sem anúncio ativo. Totais iguais (R$ 29,55, 684 visualizações, 2 conversas). Reels \"No caixa da Ana\" com 6 curtidas e 0 comentários. Saldo não apareceu na tela (mantido o estimado)"
+    },
+    {
+      "data": "2026-11-15",
+      "gasto": 0,
+      "conversas": 0,
+      "nota": "Sem anúncio ativo. Totais iguais (R$ 29,55, 684 visualizações, 2 conversas). Reels \"No caixa da Ana\" com 7 curtidas e 0 comentários; nenhuma conversa nova. Saldo não apareceu (mantido o estimado)"
     }
   ],
-  "recomendacao": "Nenhum anúncio rodando desde 12/11. Antes de turbinar de novo, responda a conversa do Direct de terça (perfil turtle) que parece sem resposta; se for anunciar, use o Reels \"No caixa da Ana\" (PDV) com raio de 15 km e confira o saldo (R$ 5,07 estimado, menos de 1 dia de verba)."
+  "recomendacao": "Nenhum anúncio rodando desde 12/11. Responda a conversa do Direct de terça (perfil turtle) que segue sem resposta; se quiser anunciar de novo, turbine o Reels \"No caixa da Ana\" (PDV) com raio de 15 km, depois de adicionar saldo (R$ 5,07 estimado, menos de 1 dia de verba)."
 }
