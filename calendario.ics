@@ -183,22 +183,24 @@ UID:unitec-2026-11-18-9@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261118T220000Z
 DTEND:20261118T223000Z
-SUMMARY:📲 Reels: Nota fiscal em 1 clique
-DESCRIPTION:Reels • Nota fiscal em 1 clique\n\nGancho: Começa com "Aut
- orizada" aparecendo na tela.\nO que mostrar: POV ou tela gravada: venda 
- virando NF-e\, transmitir e aparecer "Autorizada". Dados de clientes des
- focados.\nLegenda: Nota fiscal sem retrabalho. 🧾\nStory do dia: Repos
- t do Reels\nWhatsApp: wa.me/5547984002117
+SUMMARY:📲 Reels: No caixa da Ana · Ep. 2 (já programado)
+DESCRIPTION:Reels • No caixa da Ana · Ep. 2 (já programado)\n\nGancho
+ : O Seu João esqueceu a carteira e a fila cresce.\nO que mostrar: Já p
+ rogramado no Business Suite para 19h\, não precisa fazer nada. Depois d
+ e sair: repostar nos Stories e responder rápido todo comentário.\nLege
+ nda: Já passou por isso na sua loja? Comenta aqui 👇\nStory do dia: R
+ epost do Ep. 2 nos Stories\nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Nota fiscal em 1 clique
+DESCRIPTION:Postar em 1 hora: Reels – No caixa da Ana · Ep. 2 (já pro
+ gramado)
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Nota fiscal em 1 clique. Gravar/preparar h
- oje.
+DESCRIPTION:Amanhã: Reels – No caixa da Ana · Ep. 2 (já programado).
+  Gravar/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
