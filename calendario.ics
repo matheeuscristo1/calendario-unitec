@@ -166,23 +166,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:unitec-2026-11-17-8@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261117T150000Z
-DTEND:20261117T153000Z
-SUMMARY:📲 Story: Bastidor
-DESCRIPTION:Story • Bastidor\n\nGancho: Alguém da equipe atendendo cli
- ente pelo WhatsApp ou telefone\nO que mostrar: Texto: "Suporte aqui de C
- amboriú mesmo 📍".\nLegenda: \nWhatsApp: wa.me/5547984002117
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Bastidor
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:unitec-2026-11-18-9@unitecnologiasc.com.br
-DTSTAMP:20261109T180000Z
-DTSTART:20261118T220000Z
-DTEND:20261118T223000Z
+DTSTART:20261117T220000Z
+DTEND:20261117T223000Z
 SUMMARY:📲 Reels: No caixa da Ana · Ep. 2 (já programado)
 DESCRIPTION:Reels • No caixa da Ana · Ep. 2 (já programado)\n\nGancho
  : O Seu João esqueceu a carteira e a fila cresce.\nO que mostrar: Já p
@@ -201,6 +186,22 @@ ACTION:DISPLAY
 TRIGGER:-P1D
 DESCRIPTION:Amanhã: Reels – No caixa da Ana · Ep. 2 (já programado).
   Gravar/preparar hoje.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-18-9@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261118T150000Z
+DTEND:20261118T153000Z
+SUMMARY:📲 Story: Story: enquete da carteira
+DESCRIPTION:Story • Story: enquete da carteira\n\nGancho: Sticker de en
+ quete\nO que mostrar: "Já aconteceu de cliente esquecer a carteira no s
+ eu caixa?" Sim / Não\, com o Ep. 2 no fundo.\nLegenda: \nWhatsApp: wa.m
+ e/5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Story – Story: enquete da carteira
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
