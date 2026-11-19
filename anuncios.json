@@ -1,6 +1,6 @@
 {
-    "atualizado": "2026-11-18T09:10:51-03:00",
-    "saldo": 123.15,
+    "atualizado": "2026-11-19T10:07:22-03:00",
+    "saldo": 109.3,
     "meta": {
         "ideal": 5,
         "limite": 8
@@ -9,16 +9,16 @@
         {
             "id": "B",
             "nome": "Ana Ep. 2 (cliente esqueceu a carteira)",
-            "status": "Em análise",
+            "status": "Ativo",
             "inicio": "2026-11-18",
             "fim": "2026-11-25",
             "verbaDia": 14,
             "total": 111.55,
             "destino": "WhatsApp e Direct",
             "publico": "Camboriú + 17 km · 26 a 59 anos · varejo, PMEs, administração, empreendedorismo",
-            "gasto": 0,
+            "gasto": 13.85,
             "conversas": 0,
-            "impressoes": 0
+            "impressoes": 339
         },
         {
             "id": "A",
@@ -92,10 +92,10 @@
         },
         {
             "data": "2026-11-18",
-            "gasto": 0,
+            "gasto": 13.85,
             "conversas": 0,
-            "nota": "Saldo de R$ 120 adicionado. Turbinado o Ana Ep. 2: R$ 14/dia por 7 dias (R$ 111,55 com impostos), mensagens WhatsApp e Direct. Em análise"
+            "nota": "Ana Ep. 2 aprovado e ativo (1º dia): R$ 13,85 gastos, 339 visualizações pagas, 2 cliques no link, nenhuma conversa ainda (aprendizado). Reels já com 2.005 visualizações e 64 curtidas. Valor pode incluir parte de 19/11. Saldo estimado"
         }
     ],
-    "recomendacao": "Anúncio B (Ana Ep. 2) ainda em análise pela Meta (sem gasto). Se não for aprovado até amanhã cedo, confira o motivo no Business Suite; quando rodar, responda cada mensagem em até 5 minutos."
+    "recomendacao": "Anúncio B ativo e ainda em aprendizado (sem conversas nas primeiras 48h): não mexa por enquanto. Responda qualquer mensagem do WhatsApp/Direct em até 5 minutos e reavalie amanhã; se passar de R$ 28 sem conversa, considere reduzir o raio para 15 km."
 }
