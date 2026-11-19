@@ -209,41 +209,61 @@ UID:unitec-2026-11-19-10@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261119T150000Z
 DTEND:20261119T153000Z
-SUMMARY:📲 Story: Pergunta
-DESCRIPTION:Story • Pergunta\n\nGancho: Caixinha de perguntas\nO que mo
- strar: "Qual sua maior dúvida sobre sistema para loja?" Responder nos d
- ias seguintes.\nLegenda: \nWhatsApp: wa.me/5547984002117
+SUMMARY:📲 Story: Pergunta (já postado)
+DESCRIPTION:Story • Pergunta (já postado)\n\nGancho: Caixinha de pergu
+ ntas\nO que mostrar: "Qual é o maior problema no caixa da sua loja?" Re
+ sponder nos dias seguintes.\nLegenda: \nWhatsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Story – Pergunta
+DESCRIPTION:Postar em 1 hora: Story – Pergunta (já postado)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unitec-2026-11-20-11@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
-DTSTART:20261120T220000Z
-DTEND:20261120T223000Z
-SUMMARY:📲 Reels: Depoimento de cliente #1
-DESCRIPTION:Reels • Depoimento de cliente #1\n\nGancho: Começa com o c
- liente falando: "Antes eu fazia tudo no caderno…"\nO que mostrar: Clie
- nte de verdade\, 20 a 30 segundos\, na loja dele. Peça autorização pa
- ra gravar e postar.\nLegenda: Quem usa\, recomenda. 🙌\nStory do dia: 
- Repost do depoimento\nWhatsApp: wa.me/5547984002117
+DTSTART:20261120T150000Z
+DTEND:20261120T153000Z
+SUMMARY:📲 Story: Story: aquecimento do Ep. 3 (já programado)
+DESCRIPTION:Story • Story: aquecimento do Ep. 3 (já programado)\n\nGan
+ cho: 3 amigos\, 1 conta\, 3 jeitos de pagar\nO que mostrar: Já programa
+ do no Business Suite para 12h\, não precisa fazer nada.\nLegenda: \nWha
+ tsApp: wa.me/5547984002117
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT1H
-DESCRIPTION:Postar em 1 hora: Reels – Depoimento de cliente #1
+DESCRIPTION:Postar em 1 hora: Story – Story: aquecimento do Ep. 3 (já 
+ programado)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-2026-11-20-12@unitecnologiasc.com.br
+DTSTAMP:20261109T180000Z
+DTSTART:20261120T220000Z
+DTEND:20261120T223000Z
+SUMMARY:📲 Reels: No caixa da Ana · Ep. 3 (já programado)
+DESCRIPTION:Reels • No caixa da Ana · Ep. 3 (já programado)\n\nGancho
+ : Feriado\, loja cheia: três amigos dividem a conta no PIX\, cartão e 
+ dinheiro.\nO que mostrar: Já programado no Business Suite para 19h. Dep
+ ois de sair: repostar nos Stories e responder todo comentário EU QUERO 
+ chamando a pessoa no Direct.\nLegenda: Quer isso na sua loja? Comenta EU
+  QUERO 👇\nStory do dia: Repost do Ep. 3 nos Stories\nWhatsApp: wa.me/
+ 5547984002117
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Postar em 1 hora: Reels – No caixa da Ana · Ep. 3 (já pro
+ gramado)
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D
-DESCRIPTION:Amanhã: Reels – Depoimento de cliente #1. Gravar/preparar 
- hoje.
+DESCRIPTION:Amanhã: Reels – No caixa da Ana · Ep. 3 (já programado).
+  Gravar/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-21-12@unitecnologiasc.com.br
+UID:unitec-2026-11-21-13@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261121T140000Z
 DTEND:20261121T143000Z
@@ -258,7 +278,7 @@ DESCRIPTION:Postar em 1 hora: Story – Resposta da caixinha
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-23-13@unitecnologiasc.com.br
+UID:unitec-2026-11-23-14@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261123T220000Z
 DTEND:20261123T223000Z
@@ -282,7 +302,7 @@ DESCRIPTION:Amanhã: Reels – Sua loja aguenta a Black Friday?. Gravar/p
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-24-14@unitecnologiasc.com.br
+UID:unitec-2026-11-24-15@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261124T150000Z
 DTEND:20261124T153000Z
@@ -298,7 +318,7 @@ DESCRIPTION:Postar em 1 hora: Story – Contagem regressiva
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-25-15@unitecnologiasc.com.br
+UID:unitec-2026-11-25-16@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261125T220000Z
 DTEND:20261125T223000Z
@@ -321,7 +341,7 @@ DESCRIPTION:Amanhã: Reels – Quanto você vendeu hoje?. Gravar/preparar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-27-16@unitecnologiasc.com.br
+UID:unitec-2026-11-27-17@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261127T103000Z
 DTEND:20261127T110000Z
@@ -345,7 +365,7 @@ DESCRIPTION:Amanhã: Reels – Black Friday: bom dia e boas vendas. Grava
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-28-17@unitecnologiasc.com.br
+UID:unitec-2026-11-28-18@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261128T140000Z
 DTEND:20261128T143000Z
@@ -360,7 +380,7 @@ DESCRIPTION:Postar em 1 hora: Story – Pós Black Friday
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-11-30-18@unitecnologiasc.com.br
+UID:unitec-2026-11-30-19@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261130T220000Z
 DTEND:20261130T223000Z
@@ -382,7 +402,7 @@ DESCRIPTION:Amanhã: Reels – Quem já te pagou?. Gravar/preparar hoje.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-01-19@unitecnologiasc.com.br
+UID:unitec-2026-12-01-20@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261201T150000Z
 DTEND:20261201T153000Z
@@ -397,7 +417,7 @@ DESCRIPTION:Postar em 1 hora: Story – Bastidor de implantação
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-02-20@unitecnologiasc.com.br
+UID:unitec-2026-12-02-21@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261202T220000Z
 DTEND:20261202T223000Z
@@ -420,7 +440,7 @@ DESCRIPTION:Amanhã: Reels – Implantação em 1 dia. Gravar/preparar ho
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-03-21@unitecnologiasc.com.br
+UID:unitec-2026-12-03-22@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261203T150000Z
 DTEND:20261203T153000Z
@@ -435,7 +455,7 @@ DESCRIPTION:Postar em 1 hora: Story – Enquete de Natal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-04-22@unitecnologiasc.com.br
+UID:unitec-2026-12-04-23@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261204T220000Z
 DTEND:20261204T223000Z
@@ -457,7 +477,7 @@ DESCRIPTION:Amanhã: Reels – Depoimento de cliente #2. Gravar/preparar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-07-23@unitecnologiasc.com.br
+UID:unitec-2026-12-07-24@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261207T220000Z
 DTEND:20261207T223000Z
@@ -480,7 +500,7 @@ DESCRIPTION:Amanhã: Reels – Funcionário novo no caixa. Gravar/prepara
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unitec-2026-12-09-24@unitecnologiasc.com.br
+UID:unitec-2026-12-09-25@unitecnologiasc.com.br
 DTSTAMP:20261109T180000Z
 DTSTART:20261209T220000Z
 DTEND:20261209T223000Z
