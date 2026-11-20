@@ -1,6 +1,6 @@
 {
-    "atualizado": "2026-11-19T10:07:22-03:00",
-    "saldo": 109.3,
+    "atualizado": "2026-11-20T10:15:00-03:00",
+    "saldo": 98.72,
     "meta": {
         "ideal": 5,
         "limite": 8
@@ -16,9 +16,9 @@
             "total": 111.55,
             "destino": "WhatsApp e Direct",
             "publico": "Camboriú + 17 km · 26 a 59 anos · varejo, PMEs, administração, empreendedorismo",
-            "gasto": 13.85,
+            "gasto": 24.43,
             "conversas": 0,
-            "impressoes": 339
+            "impressoes": 678
         },
         {
             "id": "A",
@@ -95,7 +95,13 @@
             "gasto": 13.85,
             "conversas": 0,
             "nota": "Ana Ep. 2 aprovado e ativo (1º dia): R$ 13,85 gastos, 339 visualizações pagas, 2 cliques no link, nenhuma conversa ainda (aprendizado). Reels já com 2.005 visualizações e 64 curtidas. Valor pode incluir parte de 19/11. Saldo estimado"
+        },
+        {
+            "data": "2026-11-19",
+            "gasto": 10.58,
+            "conversas": 0,
+            "nota": "Ana Ep. 2 (2º dia): total R$ 24,43, 678 visualizações pagas, 506 pessoas, nenhuma conversa ainda (fim do aprendizado). Reels com 2.357 visualizações e 67 curtidas, 0 comentários. Saldo estimado"
         }
     ],
-    "recomendacao": "Anúncio B ativo e ainda em aprendizado (sem conversas nas primeiras 48h): não mexa por enquanto. Responda qualquer mensagem do WhatsApp/Direct em até 5 minutos e reavalie amanhã; se passar de R$ 28 sem conversa, considere reduzir o raio para 15 km."
+    "recomendacao": "Anúncio B saiu do aprendizado sem conversas (R$ 24,43 gastos). Se até amanhã continuar sem conversa (passando de R$ 28), reduza o raio para 15 km ou troque o vídeo; enquanto isso, responda qualquer mensagem em até 5 minutos."
 }
